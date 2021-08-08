@@ -118,13 +118,13 @@ export const CardTextContent = ({ text }: { text: string }) => (
 export const CardMutedContent = ({ children }) => (
   <View
     style={{
-      backgroundColor: theme.lightOffwhite,
+      backgroundColor: theme.red
       paddingLeft: 12,
       paddingRight: 12,
       paddingBottom: 12,
       paddingTop: 6,
       margin: 4,
-      borderRadius: 8,
+      borderRadius: 9
       justifyContent: "center",
     }}
   >
@@ -154,14 +154,14 @@ export const CardBadge = ({
 export const CardAttentionDot = () => (
   <View
     style={{
-      backgroundColor: theme.pink,
+      backgroundColor: theme.blue
       position: "relative",
       top: 12,
       right: -6,
       width: 18,
       height: 18,
       zIndex: 999,
-      borderRadius: 18,
+      borderRadius: 19,
       alignSelf: "flex-end",
     }}
   />
